@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@500;700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;    
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    margin-top: 70px;
+    margin-bottom: 60px;
+    padding-left: 450px;
+    padding-right: 450px;
+    font-size: 100%;
+    background-color: rgb(240, 235, 229);
+    gap: 50px;
+    }
+
+.conteudo {         
+    display: flex;
+    align-content: flex-start;
+    margin-bottom: 100px;
+    border-top: 0.12px 
+
+    }
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-around;
+    
+    
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 32px;
+    padding: 0.9px;
+    padding-top: 40px;
+    margin-top: 70px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(253, 254, 255);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    
+}
+.conteudo-principal-escrito-titulo{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 30px;
+}
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.conteudo-principal-escrito-subtitulo-texto {
+    font-family: 'Montserrat';
+    font-weight: 500; 
+    font-size: 17px;
+}
+
+.conteudo-valor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+.valor {
+    font-family: 'Montserrat';
+    font-weight: 500; 
+   
+}
+.valor-int {
+    text-decoration: line-through;
+}
+.botao {
+    background-color: rgb(36, 102, 102);
+    width: 190px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size:'Montserrat';
+    color: #fcfbfa;   
+}
+.conteudo-imagem {
+    width: 400px;
+    padding-right: 50px;
+    margin-top: 70px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(253, 254, 255);   
+        
+}
+.rodape {
+    font-family:'Montserrat' ;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+
